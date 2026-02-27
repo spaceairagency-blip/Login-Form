@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(image/9091671.jpg);
+    background: url(9091671.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -101,3 +101,4 @@ body{
     cursor: pointer;
     color: gray;
 }
+
