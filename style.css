@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(image/9091671.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui,sans-serif;
+    animation: esaaa .9s ease;
+}
+@keyframes esaaa {
+    from{opacity: 0; transform: scale(.9);} to{opacity: 1;transform: scale(1);}
+}
+.login_area{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* border: 10px solid rgba(0, 0, 255, 0.558); */
+}
+.login_text{
+    text-align: center;
+    font-size: 50px;
+}
+.input_area{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+::placeholder {
+  color: black;
+}
+.username input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: .5px solid black;
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+}
+.password input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: .5px solid black;
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+}
+.sign_in_btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(13, 13, 14, 0.899);
+    padding: 8px 70px;
+    border-radius: 5px;
+    transition: .4s ease;
+}
+.sign_in_btn:hover{
+    background-color: rgb(94, 92, 92);
+}
+.submit_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main{
+    margin-top: 50px;
+}
+.sign_up_btn{
+    color: black;
+    text-decoration: none;
+    transition: .4s ease;
+}
+.sign_up_btn:hover{
+    color: rgb(86, 83, 83);
+}
+.parea{
+    margin-top: 10px;
+    text-align: center;
+}
+.parea p{
+    color: gray;
+    cursor: pointer;
+}
+.password {
+    position: relative;
+}
+.password i {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: gray;
+}
